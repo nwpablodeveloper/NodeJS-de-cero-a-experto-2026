@@ -42,5 +42,7 @@
 - V012 - Archivos de JavaScript [Archivo app](01-fundamentos/app.js)
 - V013 - Leer archivos - FileSystem
   - [Material adjunto de react README.md](https://github.com/facebook/react)
-
+- V014 - Tarea - Contador de palabras React
+  - [Mi Solución](01-fundamentos/tarea.js)
+  - [Solución Fernando Herrera](01-fundamentos/tarea-solucion.js)
  
