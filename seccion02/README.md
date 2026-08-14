@@ -40,5 +40,7 @@
 - V011 - Hello Word en NodeJS
   - Desde la powershell de windows con el comando "node" ya entramos en ejecución de Nodejs.
 - V012 - Archivos de JavaScript [Archivo app](01-fundamentos/app.js)
+- V013 - Leer archivos - FileSystem
+  - [Material adjunto de react README.md](https://github.com/facebook/react)
 
  
