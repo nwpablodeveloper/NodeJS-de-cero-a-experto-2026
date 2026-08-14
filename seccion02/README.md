@@ -35,7 +35,9 @@
     se siga ejecutando otras instrucciones en paralelo
 ***
 
-- [Ejemplo - Código Blocking](codigo-blocking.js) 
-- [Ejemplo - Código Non-Blocking](codigo-blocking.js) 
+  - [Ejemplo - Código Blocking](codigo-blocking.js) 
+  - [Ejemplo - Código Non-Blocking](codigo-blocking.js) 
+- V011 - Hello Word en NodeJS
+  - Desde la powershell de windows con el comando "node" ya entramos en ejecución de Nodejs.
 
  
