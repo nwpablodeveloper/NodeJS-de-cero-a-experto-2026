@@ -47,3 +47,6 @@
     "v25": "nodemon src/js-foundation/02-destructuring",
 ``` 
   - [Destructuración](02-bases/src/js-foundation/02-destructuring.js)
+- V026 - Depuración de apliaciones de Node
+  - 1 - Poner Red point
+  - 2 - Ejecutar "Debug/Depurar" en "packache.json"
