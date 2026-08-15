@@ -37,7 +37,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node src/app.js",
         "v23": "node src/v23.js",
-        "v24": "nodemon src/v23.js", // Aplicamos Nodemon
+        "v24": "nodemon src/v23.js", // Aplicamos Nodemon - ejecutar con: npm run v24
         "dev": "echo 'hola mundo desde el dev"
     },
 ``` 
