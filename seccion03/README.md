@@ -17,3 +17,5 @@
   - Dependencias de Producción y Desarrollo.
   - Patrón adaptador para nuestras dependencias.
   - y mas...
+- V021 - Inicio de proyecto - Fundamentos 
+  - desde la powershell "npm init" - [package.json](02-bases/package.json)
