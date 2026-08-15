@@ -19,3 +19,12 @@
   - y mas...
 - V021 - Inicio de proyecto - Fundamentos 
   - desde la powershell "npm init" - [package.json](02-bases/package.json)
+- V022 - Package.json Scripts
+  - SRC - Directorio donde vamos a crear unestro código
+    ```js
+        "scripts": {
+            "test": "echo \"Error: no test specified\" && exit 1",
+            "start": "node src/app.js",
+            "dev": "echo 'hola mundo desde el dev"
+        },
+    ``` 
