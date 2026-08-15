@@ -46,4 +46,10 @@
   - [Mi Solución](01-fundamentos/tarea.js)
   - [Solución Fernando Herrera](01-fundamentos/tarea-solucion.js)
 - V015 - Orden de ejecución - Introducción [VER](recursos/orden-de-ejecucion.js)
+  ***
+    - [VER JPG - Orden de ejecución](recursos/orden-de-ejecucion.jpg)
+    
+    Si bien el 2° Timer tiene 1 milisegundo, se va a disparar antes del que tiene 0 milisegundos por que logror
+    resolverse mientras estaba en la memoria "Libuv" mientras el flujo de código seguia ejecutandose en la memoria "Call Stack"
+  ***
  
