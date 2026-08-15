@@ -45,4 +45,5 @@
 - V014 - Tarea - Contador de palabras React
   - [Mi Solución](01-fundamentos/tarea.js)
   - [Solución Fernando Herrera](01-fundamentos/tarea-solucion.js)
+- V015 - Orden de ejecución - Introducción [VER](recursos/orden-de-ejecucion.js)
  
