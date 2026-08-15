@@ -31,3 +31,13 @@
 - V023 - Importaciones y Exportaciones
   - [Template](02-bases/src/js-foundation/01-template.js)
   - [v23.js](02-bases/src/v23.js)
+- V024 - [Nodemon](https://www.npmjs.com/package/nodemon), paquetes de terceros
+```js
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/app.js",
+        "v23": "node src/v23.js",
+        "v24": "nodemon src/v23.js", // Aplicamos Nodemon
+        "dev": "echo 'hola mundo desde el dev"
+    },
+``` 
