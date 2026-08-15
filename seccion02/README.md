@@ -54,4 +54,17 @@
 - V016 - Node - Event Loop & Code Execution
   - ¿Qué pasa si 2 Timesouts terminan al mismo tiempo?
   - ¿Qué pasa si una promesa termina al mismo tiempo que otro callback?
- 
+- V017 - Node Event Loop [VER](https://www.builder.io/blog/visual-guide-to-nodejs-event-loop)
+  - [Timer, I/O, Checks](recursos/Timer-IO-Checks.jpg)
+    ### El Event Loop sigue ciertas reglas
+    - 1. Callbacks en el microstacks se ejecutan primero.
+    - 2. Todos los callbacks dentro del timer "queue" se ejecutan.
+    - 3. Callbacks en el microtask "queue"(si hay) se ejecutan después de los callbak timers, primero tareas en 
+          nextTick "queue" y luego tareas en el promise "queue".
+    - 4. Callbacks de I/O se ejecutan.
+    - 5. Callbacks en el microtask "queue" se ejecutan (si hay), y luego promise queue (si hay).
+    - 6. Todos los callbacks en el check queue se ejecutan.
+    - 7. Callbacks en el microtask se ejecutan después de cada callback en el check queue. (Siguiendo el mismo orden anterior
+          , nextTick y luego promise).
+    - 8. Todos los callbacks en el close queue son ejecutados.
+    - 9. Por una última vez en el mismo ciclo, los microtask queues son ejecutados de la mism forma, nextTick y luego promise queue
