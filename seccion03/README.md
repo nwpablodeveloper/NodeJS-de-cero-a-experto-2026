@@ -21,10 +21,13 @@
   - desde la powershell "npm init" - [package.json](02-bases/package.json)
 - V022 - Package.json Scripts
   - SRC - Directorio donde vamos a crear unestro código
-    ```js
-        "scripts": {
-            "test": "echo \"Error: no test specified\" && exit 1",
-            "start": "node src/app.js",
-            "dev": "echo 'hola mundo desde el dev"
-        },
-    ``` 
+```js
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/app.js",
+        "dev": "echo 'hola mundo desde el dev"
+    },
+``` 
+- V023 - Importaciones y Exportaciones
+  - [Template](02-bases/src/js-foundation/01-template.js)
+  - [v23.js](02-bases/src/v23.js)
