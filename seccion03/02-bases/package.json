@@ -8,6 +8,7 @@
     "start": "node src/app.js",
     "v23": "node src/v23.js",
     "v24": "nodemon src/v23.js",
+    "v25": "nodemon src/js-foundation/02-destructuring",
     "dev": "echo 'hola mundo desde el dev"
   },
   "author": "Pablo Veiga",

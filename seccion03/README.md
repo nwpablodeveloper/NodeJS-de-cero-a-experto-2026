@@ -41,3 +41,9 @@
         "dev": "echo 'hola mundo desde el dev"
     },
 ``` 
+- V025 - Variables de entorno por defecto
+```js
+    // package.json
+    "v25": "nodemon src/js-foundation/02-destructuring",
+``` 
+  - [Destructuración](02-bases/src/js-foundation/02-destructuring.js)
