@@ -11,6 +11,7 @@
     "v25": "nodemon src/js-foundation/02-destructuring",
     "v27": "nodemon src/v27",
     "v28": "nodemon src/v28",
+    "v29": "nodemon src/v29",
     "dev": "echo 'hola mundo desde el dev"
   },
   "author": "Pablo Veiga",

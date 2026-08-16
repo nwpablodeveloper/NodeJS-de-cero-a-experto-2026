@@ -52,3 +52,4 @@
   - 2 - Ejecutar "Debug/Depurar" en "packache.json"
 - V027 - [Callbacks](02-bases/src/v27.js)
 - V028 - Arrow Functions - [Funciones Flecha](02-bases/src/v28.js)
+- V029 - Factory functions - [Introducción](02-bases/src/v29.js)
