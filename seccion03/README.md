@@ -76,3 +76,5 @@
  - V034 - Promesas en cadena - [App](02-bases/src/v34.js)
  - V035 - Convertir la promesa en [Async/Await](02-bases/src/v35.js)
  - V036 - Patrón adaptador - [FetchApi](02-bases/src/v36.js)
+ - V037 - Axios, Cliente para peticiones [HTTP](02-bases/src/v37.js)
+   - [Axios](https://www.npmjs.com/package/axios)

@@ -19,11 +19,13 @@
     "v34": "nodemon src/v34",
     "v35": "nodemon src/v35",
     "v36": "nodemon src/v36",
+    "v37": "nodemon src/v37",
     "dev": "echo 'hola mundo desde el dev"
   },
   "author": "Pablo Veiga",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.19.0",
     "get-age": "^1.0.1",
     "uuid": "^9.0.1"
   }
