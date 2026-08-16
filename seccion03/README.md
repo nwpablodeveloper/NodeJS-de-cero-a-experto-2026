@@ -53,3 +53,8 @@
 - V027 - [Callbacks](02-bases/src/v27.js)
 - V028 - Arrow Functions - [Funciones Flecha](02-bases/src/v28.js)
 - V029 - Factory functions - [Introducción](02-bases/src/v29.js)
+- V030 - Factory functions - [Necesidad](02-bases/src/v30.js)
+  - La necesidad del FACTORY FUNCTIONS, nos facilita a trabajar con las dependencias de terceros en ficheros
+    independientes a nuestro código. (Patrón adaptador)
+    - [uuid](https://www.npmjs.com/package/uuid)
+    - [get-age](https://www.npmjs.com/package/get-age)
