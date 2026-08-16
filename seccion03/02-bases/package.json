@@ -10,6 +10,7 @@
     "v24": "nodemon src/v23.js",
     "v25": "nodemon src/js-foundation/02-destructuring",
     "v27": "nodemon src/v27",
+    "v28": "nodemon src/v28",
     "dev": "echo 'hola mundo desde el dev"
   },
   "author": "Pablo Veiga",
