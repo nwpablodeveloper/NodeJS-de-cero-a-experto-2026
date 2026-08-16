@@ -50,4 +50,4 @@
 - V026 - Depuración de apliaciones de Node
   - 1 - Poner Red point
   - 2 - Ejecutar "Debug/Depurar" en "packache.json"
-- V027 - Callbacks
+- V027 - [Callbacks](02-bases/src/v27.js)
