@@ -74,3 +74,4 @@
  - V033 - Promesas - [introducción](02-bases/src/v33.js)
    - [Pokemon api](https://pokeapi.co/)
  - V034 - Promesas en cadena - [App](02-bases/src/v34.js)
+ - V035 - Convertir la promesa en [Async/Await](02-bases/src/v35.js)

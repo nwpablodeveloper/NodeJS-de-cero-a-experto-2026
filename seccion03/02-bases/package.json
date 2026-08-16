@@ -17,6 +17,7 @@
     "v32": "nodemon src/v32",
     "v33": "nodemon src/v33",
     "v34": "nodemon src/v34",
+    "v35": "nodemon src/v35",
     "dev": "echo 'hola mundo desde el dev"
   },
   "author": "Pablo Veiga",
