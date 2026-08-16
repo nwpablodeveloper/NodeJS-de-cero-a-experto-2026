@@ -1,9 +1,9 @@
 const getAgePlugin = require('get-age');
 
-const getAge = (birthDate) => {
-    if(!birthDate) return new Error(`La fecha de nacimiento es requerida`);
+const getAge = (birthdate) => {
+    if(!birthdate) return new Error(`La fecha de nacimiento es requerida`);
 
-    return getAgePlugin(birthDate);
+    return getAgePlugin(birthdate);
 }
 
 module.exports = {

@@ -65,5 +65,9 @@
     Ahora las dependencias de terceros estan separadas en una carpeta llamada "Plugins", esto nos
     facilita eliminarla o modificarlas con facilidad el día que ya no sean requeridas.
   */  
-
-```
+ 
+ ```
+- V032 - Factory Functions - [Aplicado](02-bases/src/v32.js)
+ ```js
+  // Un Factory functions es una función que regresa otra función
+ ```
