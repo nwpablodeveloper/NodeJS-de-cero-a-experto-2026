@@ -71,3 +71,5 @@
  ```js
   // Un Factory functions es una función que regresa otra función
  ```
+ - V033 - Promesas - [introducción](02-bases/src/v33.js)
+   - [Pokemon api](https://pokeapi.co/)
