@@ -58,3 +58,12 @@
     independientes a nuestro código. (Patrón adaptador)
     - [uuid](https://www.npmjs.com/package/uuid)
     - [get-age](https://www.npmjs.com/package/get-age)
+- V031 - Patrón adaptador, [App](02-bases/src/v31.js)
+  - Archivo de barrido, [../plugins/index.js](02-bases/plugins/index.js)
+```js
+  /*
+    Ahora las dependencias de terceros estan separadas en una carpeta llamada "Plugins", esto nos
+    facilita eliminarla o modificarlas con facilidad el día que ya no sean requeridas.
+  */  
+
+```
