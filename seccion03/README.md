@@ -75,3 +75,4 @@
    - [Pokemon api](https://pokeapi.co/)
  - V034 - Promesas en cadena - [App](02-bases/src/v34.js)
  - V035 - Convertir la promesa en [Async/Await](02-bases/src/v35.js)
+ - V036 - Patrón adaptador - [FetchApi](02-bases/src/v36.js)
