@@ -1,5 +1,25 @@
 # NodeJS: De cero a experto - 2026
 
-- [Sección 01 - 00:30 hs - Introducción](seccion01)
+- [Sección 01 - 00:30 hs - Introducción](seccion01)  
 - [Sección 02 - 00:58 hs - Fundamentos de Node - Primeros pasos](seccion02)
+  - Preguntas comunes sobre Node.
+  - Hola Mundo en Node.
+  - Laboratorio con FileSystem.
+  - Event Loop. 
 - [Sección 03 - 02:07 hs - Desarrollando en Node](seccion03)
+  - Package.json.
+  - Node Modules.
+  - Scripts.
+  - Importaciones y Exportac.iones
+  - Módulos.
+  - Reforzamiento de JS.
+  - Callbacks.
+  - Arrows Functions.
+  - Factory Functions.
+  - Promises.
+  - Async Await.
+  - Peticiones Http básicas. 
+  - Dependencias de Producción y Desarrollo.
+  - Patrón adaptador para nuestras dependencias.
+  - y mas...
+- []
