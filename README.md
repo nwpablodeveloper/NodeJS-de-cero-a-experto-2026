@@ -24,7 +24,7 @@
   - y mas...
 - [Sección 04 01:28hs - Bases de Node + TypeScript](seccion04/)
   - Loggers y su necesidad
-  - Winston
+  - Winston (Loggs - Node Logger)
   - Configuraciones básicas y adaptador
   - TypeScript
   - Configuración de TypeScript con Node
