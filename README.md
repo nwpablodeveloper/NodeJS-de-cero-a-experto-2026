@@ -22,4 +22,13 @@
   - Dependencias de Producción y Desarrollo.
   - Patrón adaptador para nuestras dependencias.
   - y mas...
-- []
+- [Sección 04 01:28hs - Bases de Node + TypeScript](seccion04/)
+  - Loggers y su necesidad
+  - Winston
+  - Configuraciones básicas y adaptador
+  - TypeScript
+  - Configuración de TypeScript con Node
+  - Migración de proyecto
+  - TSC
+  - ts-node + nodemon
+  - Entre otras cosas
