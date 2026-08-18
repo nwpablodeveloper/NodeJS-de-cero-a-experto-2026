@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/app.js",
     "v42": "nodemon src/v42.js",
+    "v43": "nodemon src/v43.js",
     "dev": "echo 'hola mundo desde el dev"
   },
   "author": "Pablo Veiga",
