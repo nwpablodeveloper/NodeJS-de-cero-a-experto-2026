@@ -3,3 +3,4 @@
 - [Sección 01 - 00:30 hs - Introducción](seccion01)
 - [Sección 02 - 00:58 hs - Fundamentos de Node - Primeros pasos](seccion02)
 - [Sección 03 - 02:07 hs - Desarrollando en Node](seccion03)
+- [Sección 04 - 01:28 hs - Bases de Node + TypeScript](seccion04/)
