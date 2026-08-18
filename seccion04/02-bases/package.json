@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/app.js",
+    "v42": "nodemon src/v42.js",
     "dev": "echo 'hola mundo desde el dev"
   },
   "author": "Pablo Veiga",
@@ -13,7 +14,8 @@
   "dependencies": {
     "axios": "^1.19.0",
     "get-age": "^1.0.1",
-    "uuid": "^9.0.1"
+    "uuid": "^9.0.1",
+    "winston": "^3.19.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"

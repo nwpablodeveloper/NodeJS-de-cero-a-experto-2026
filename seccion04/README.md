@@ -13,3 +13,4 @@
   - Entre otras cosas
 - V041 - Continuación de la sección
   - [Continuación de la sección anterior](https://github.com/Klerith/node-ts-bases/tree/fin-seccion-3)
+- V042 Node Logger - Winston
