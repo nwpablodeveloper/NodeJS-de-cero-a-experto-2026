@@ -16,9 +16,9 @@ const heroes = [
     },
 ];
 
-const findHeroById = (id) => {
+const findHeroById = (id: number) => {
     return heroes.find( (heroe) => heroe.id === id);
 }
 
-const hero = findHeroById(5);
+const hero = findHeroById(1);
 console.log(hero?.name ?? 'Heroe no existe'); // hero.name si es igual a herro.undefined == a error

@@ -34,3 +34,60 @@
     "rootDir": "./src",
     "outDir": "./dist",
   ```
+- V046 - Cración de Scripts para trabajar con TypeScript
+  ```js
+    // Permite ejecutar directamente codigo de Typescritp en Node
+    npm install -D ts-node nodemon
+
+    // Crear archivos de configuración para nodemon (nodemon.json)
+    {
+      // estar pendiente de lo que pase en la carpeta "src"
+      "watch": ["src"], 
+
+      // estar pendientes de archivos con extensiones ts y js
+      "ext": ".ts,.js", 
+
+      // ignorar archivos
+      "ignore": [],     
+
+      // comando para ejecutar la app en modo de desarrollo
+      "exec": "npx ts-node ./src/app.ts"  
+    }
+  ```
+  ```js
+    // Crear los script en package.json para ejecutar nodemon con Typescript
+    "dev": "nodemon"
+
+    // en caso de no querer instaar nodemon
+    "dev": "npx nodemon" 
+  ```
+  ```js
+
+    // Instalar rimraf (herramienta que elimina y crea directorios)
+    npm i -D rimraf
+
+    // package.json
+    // Elimina directorio ./dist y crea los archivos para producción
+    "build": "rimraf ./dist && tsc", 
+
+    // asegurar de tener la carpeta de producción actualizada con los ultimos cambios
+    "start": "npm run build && node dist/app.js" 
+  ```
+  ```js
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+
+         // Ejecutamos para trabajar en modo de desarrollo
+         // esto esta asociado al archivos nodemon.json
+        "dev": "nodemon", 
+
+        // para transpilar la app de TS a JS
+        // Este comando se ejecuta con "start"
+        // tsc - toma todo los archivos .ts y los compila
+        "build": "rimraf ./dist && tsc", 
+
+        // para ejecutar la app en modo de producción
+        // Ejecuta primero "build" y luego dispara la App
+        "start": "npm run build && node dist/v46" 
+      },
+  ```
