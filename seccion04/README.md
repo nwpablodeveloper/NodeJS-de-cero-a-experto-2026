@@ -21,3 +21,16 @@
     npx  - Paquete para ejecutar nodemon de otra manera
     npx nodemon + "ruta de la  App"
   ```
+- V045 - Configuración de TypeScript en Node
+  - [Pasos para usar Node con TypeScript](https://gist.github.com/Klerith/47af527da090043f604b972b22dd4c01)
+  ```js
+    // crear dependencia de desarrollo
+    npx i -D typescript @types/node
+
+    // Inicializar archivo de configuración de Typescript
+    npx tsc --init
+
+    // configurar direcotiors
+    "rootDir": "./src",
+    "outDir": "./dist",
+  ```
