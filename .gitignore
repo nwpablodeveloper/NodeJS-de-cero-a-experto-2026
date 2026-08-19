@@ -1,5 +1,4 @@
 seccion03/02-bases/node_modules
 seccion04/02-bases/node_modules
 seccion04/02-bases/node_modules
-seccion04/02-bases/combined.log
-seccion04/02-bases/error.log
+seccion04/02-bases/*.log

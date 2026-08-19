@@ -15,3 +15,9 @@
   - [Continuación de la sección anterior](https://github.com/Klerith/node-ts-bases/tree/fin-seccion-3)
 - V042 - Node Logger - Winston
 - V043 - Winston - Parte 2 (Loogs)
+- V044 - TypeScript - Proyecto básico
+  ```js
+    // cmd
+    npx  - Paquete para ejecutar nodemon de otra manera
+    npx nodemon + "ruta de la  App"
+  ```
