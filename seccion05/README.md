@@ -35,3 +35,4 @@
 - V056 - Nota para próximas clases
 - V057 - Arrange, Act, Assert
 - V058 - Pruebas en 01-Template
+- V059 - Pruebas en 02-Destructuring
