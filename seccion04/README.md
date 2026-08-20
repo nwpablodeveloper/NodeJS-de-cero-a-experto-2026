@@ -91,3 +91,4 @@
         "start": "npm run build && node dist/v46" 
       },
   ```
+- V047 - Trabajando con Node y Typescript juntos
