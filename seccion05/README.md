@@ -29,3 +29,8 @@
     - Las pruebas hacen mas lenta mi aplicación
     - Es una pérdida de tiempo
     - Hay que probar todo
+- V054 - Continuación de proyecto - Bases
+- V055 - configurar ambiente de pruebas
+  - [pasos a seguir](https://gist.github.com/Klerith/98d7b1bc0f1525e892f260813cad1007)
+- V056 - Nota para próximas clases
+- V057 - Arrange, Act, Assert
