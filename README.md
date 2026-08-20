@@ -37,3 +37,7 @@
   - TSC
   - ts-node + nodemon
   - Entre otras cosas
+  - Peticiones Http básicas.
+  - Dependencias de Producción y Desarrollo.
+  - Patrón adaptador para nuestras dependencias.
+  - y mas...
