@@ -92,5 +92,6 @@
       },
   ```
 - V047 - Trabajando con Node y Typescript juntos
-- V048 - Migrar proyecto a TypeScript - Parte 1
+- V048 - Migrar proyecto 02-bases a TS - Parte 1
   - Pasar el proyecto 02-Bases a typescript
+- V049 - Migrar proyecto 02-bases a TS -parte 2
