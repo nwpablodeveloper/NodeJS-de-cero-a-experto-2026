@@ -1,6 +1,11 @@
 # NodeJS: De cero a experto - 2026
 
 - [Sección 01 - 00:30 hs - Introducción](seccion01)  
+```js
+  // Cambiar versiones de node
+  nvm list // muestra las versiones instaladas en el ordenador
+  nvm use v20 // cambia a la versión v20 de node
+```
 - [Sección 02 - 00:58 hs - Fundamentos de Node - Primeros pasos](seccion02)
   - Preguntas comunes sobre Node.
   - Hola Mundo en Node.
