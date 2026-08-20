@@ -34,3 +34,4 @@
   - [pasos a seguir](https://gist.github.com/Klerith/98d7b1bc0f1525e892f260813cad1007)
 - V056 - Nota para próximas clases
 - V057 - Arrange, Act, Assert
+- V058 - Pruebas en 01-Template
