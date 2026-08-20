@@ -36,3 +36,4 @@
 - V057 - Arrange, Act, Assert
 - V058 - Pruebas en 01-Template
 - V059 - Pruebas en 02-Destructuring
+- V060 - Pruebas en 03-Callbacks
