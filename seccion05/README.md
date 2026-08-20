@@ -8,3 +8,24 @@
   - Configuraciones Node + TS + Jest
   - Pruebas en todos los archivos realizados en la sección anterior
   - Coverage - Cobertura  del testing
+- V053 - Introducción Pruebas automáticas
+  - Terminología AAA
+    - Arrange (Arreglar)
+      - Preparamos el estado inicial
+        - Inicializamos variables
+        - Importaciones necesarias
+    - Act (Actuar)
+      - Aplicamos acciones o estímulos
+        - Llamar a métodos
+        - Simular clicks
+        - Realizar acciones sobre el paso anterior
+    - Asser (Afirmar)
+      - Observar el comportamiento resultante
+        - Son los resultados esperados
+        - Ej: que algo cambie, algo incremente o bien que nada suceda 
+  - Mitos
+    - Hacen que mi aplicación no tenga errores
+    - Las pruebas no pueda fallar
+    - Las pruebas hacen mas lenta mi aplicación
+    - Es una pérdida de tiempo
+    - Hay que probar todo
