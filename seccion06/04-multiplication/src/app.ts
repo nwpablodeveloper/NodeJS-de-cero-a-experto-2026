@@ -1,3 +1,6 @@
-console.clear();
+import { yarg } from "./config/plugins/args.plugin";
 
-console.log(process.argv);
+// console.clear();
+
+console.log(yarg.b);
+
