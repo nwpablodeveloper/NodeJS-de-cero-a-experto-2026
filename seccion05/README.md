@@ -60,3 +60,4 @@ describe('03-Callbacks', () => {
 - V061 - Pruebas en 03-Callbacks - parte 2
 - V062 - Preubas en 05-Factory
 - V063 - Pruebas en 06-Promises
+- V064 - Pruebas en GetAgeAdapter

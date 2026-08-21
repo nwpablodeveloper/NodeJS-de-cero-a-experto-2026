@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1787308561217" clover="3.2.0">
-  <project timestamp="1787308561217" name="All files">
+<coverage generated="1787320854454" clover="3.2.0">
+  <project timestamp="1787320854454" name="All files">
     <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1" elements="21" coveredelements="21" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
     <file name="06-promises.ts" path="D:\cursos\FH\nodeJS2026\seccion05\02-bases\src\js-foundation\06-promises.ts">
       <metrics statements="17" coveredstatements="17" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
