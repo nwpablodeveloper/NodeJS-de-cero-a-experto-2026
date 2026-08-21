@@ -37,3 +37,25 @@
 - V058 - Pruebas en 01-Template
 - V059 - Pruebas en 02-Destructuring
 - V060 - Pruebas en 03-Callbacks
+```js
+describe('03-Callbacks', () => {
+    test('getUserById deberia retornar error o un usuario', (done)=> {
+        
+        const id = 10;
+
+        getUserById(id, (err, user) => {
+            expect(err).toBe(`User not found with id ${id}`);
+            expect(user).toBeUndefined();
+            /* 
+              done() le indica a Jest que el test asíncrono ha terminado.
+              Jest espera hasta que llamemos a done().
+              Si nunca llamamos a done(), Jest esperará hasta que se alcance
+              el tiempo máximo permitido (por defecto, 5 segundos). 
+            */
+            done();
+        });
+    });
+});
+```
+- V061 - Pruebas en 03-Callbacks - parte 2
+- V062 - Preubas en 05-Factory
