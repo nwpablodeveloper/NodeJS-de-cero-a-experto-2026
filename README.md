@@ -42,3 +42,4 @@
   - Patrón adaptador para nuestras dependencias.
   - y mas...
 - [Sección 05 02:28hs - Introducción a Testing](seccion05/)
+- [Sección 06 01:49hs - Aplicación de consola - Clean Architecture - Primeros pasos](seccion06/)
