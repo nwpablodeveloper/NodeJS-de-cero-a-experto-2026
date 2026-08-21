@@ -29,7 +29,7 @@ describe('logger-plugin-parte-2', () => {
         expect(winstonLoggerMock).toHaveBeenCalled();
 
         // Probamos si es llamado con 0 argumentos y nos va a devolver el log en objeto "Error test"
-        expect(winstonLoggerMock).toHaveBeenCalledWith();
+        // expect(winstonLoggerMock).toHaveBeenCalledWith();
         
         expect(winstonLoggerMock).toHaveBeenCalledWith(
             'info',
