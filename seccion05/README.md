@@ -65,3 +65,6 @@ describe('03-Callbacks', () => {
 - V066 - Pruebas en getUUID Adapter
 - V067 - Pruebas en HttpClient Adapter
 - V068 - Pruebas en el Logger Adpater
+- V069 - Testing Coverage
+  - Visualizar reporte de testing con "coverage" scirpt "test:coverage": "jest --coverage",
+  - [coverage/low-report/plugins/index.html](./02-bases/coverage/lcov-report/index.html)
