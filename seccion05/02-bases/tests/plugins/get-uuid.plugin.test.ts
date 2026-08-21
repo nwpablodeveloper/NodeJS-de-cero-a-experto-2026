@@ -1,4 +1,4 @@
-import { getUUID } from "../../src/plugins/get-uuid.plugin";
+import { getUUID } from "../../src/plugins";
 
 
 describe('get-uuid.plugin', () => {

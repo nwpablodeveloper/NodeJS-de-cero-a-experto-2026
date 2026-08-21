@@ -63,3 +63,4 @@ describe('03-Callbacks', () => {
 - V064 - Pruebas en GetAgeAdapter
 - V065 - SpyOn - Métodos de objetos
 - V066 - Pruebas en getUUID Adapter
+- V067 - Pruebas en HttpClient Adapter
