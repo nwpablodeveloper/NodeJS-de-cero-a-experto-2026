@@ -62,3 +62,4 @@ describe('03-Callbacks', () => {
 - V063 - Pruebas en 06-Promises
 - V064 - Pruebas en GetAgeAdapter
 - V065 - SpyOn - Métodos de objetos
+- V066 - Pruebas en getUUID Adapter
