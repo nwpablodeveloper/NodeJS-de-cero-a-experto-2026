@@ -1,6 +1,6 @@
 console.clear();
 
-import  { buildLogger }  from './plugins/logeer.plugin-parte-2 ';
+import  { buildLogger }  from './plugins/logger.plugin-parte-2 ';
 
 const logger = buildLogger('v48.js');
 
