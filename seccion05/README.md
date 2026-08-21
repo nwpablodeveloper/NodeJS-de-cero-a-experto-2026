@@ -69,3 +69,4 @@ describe('03-Callbacks', () => {
   - Visualizar reporte de testing con "coverage" scirpt "test:coverage": "jest --coverage",
   - [coverage/low-report/plugins/index.html](./02-bases/coverage/lcov-report/index.html)
 - V070 - Conectar Build + Testing
+- V071 - Codigo fuente de la sección
