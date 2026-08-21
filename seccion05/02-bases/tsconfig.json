@@ -1,5 +1,6 @@
 {
-
+  // "include": ["src/**/*"], // Incluir para compilar todos los archivos dentro del src
+  // "exclude": ["node_modules", "**/*.spect.ts", "**/*.test.ts"],
   "compilerOptions": {
     // File Layout
     "rootDir": ".",
