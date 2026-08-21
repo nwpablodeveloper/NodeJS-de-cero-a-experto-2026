@@ -18,3 +18,4 @@
   - Imprimir la tabla del 5 hasta el 10 
   - Guardar la tabla en un archivo de texto
     - path: outputs/tabla-5.txt
+- V076 - Argv - Argument Values
