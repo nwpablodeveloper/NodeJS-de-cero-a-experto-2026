@@ -21,3 +21,4 @@
 - V076 - Argv - Argument Values
 - V077 - [yargs](https://www.npmjs.com/package/yargs)
 - V078 - Función anónima - auto-invocada
+- V079 - Opciones de Yargs
