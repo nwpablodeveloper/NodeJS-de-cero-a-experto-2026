@@ -1,22 +1,25 @@
 console.clear();
 
 import fs from 'fs';
+import { miYarg } from './config/plugins/args.plugin';
 
-const base = 5;
+const { b: base, l: limit, s:show } = miYarg;
+
 
 let outputMessage = `
-======================
-      Tabla del ${base}
-======================
+========================================
+    Tabla del ${base} hastá limite de ${limit}
+========================================
 `;
 
-for (let i = 1; i <= 10; i++) {
+for (let i = 1; i <= miYarg.l; i++) {
     outputMessage += `${base} x ${i} = ${base * i}\n`;
 }
 
 const dir = `outputs`;
 
 fs.mkdirSync(dir, { recursive: true });
-fs.writeFileSync(`./${dir}/tabla-${base}.txt`, outputMessage);
+fs.writeFileSync(`./${dir}/tabla-${base}-hasta-${limit}.txt`, outputMessage);
 
-console.log(outputMessage);
+if(show)
+    console.log(outputMessage);

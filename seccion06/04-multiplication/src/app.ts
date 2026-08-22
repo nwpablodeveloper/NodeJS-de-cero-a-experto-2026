@@ -1,6 +1,6 @@
 console.clear();
 
-import { yarg } from "./config/plugins/args.plugin";
+import { miYarg } from "./config/plugins/args.plugin";
 
 (async () => {
     main();
@@ -9,6 +9,6 @@ import { yarg } from "./config/plugins/args.plugin";
 
 
 async function main() {
-    console.log(yarg);
+    console.log(miYarg);
 }
 

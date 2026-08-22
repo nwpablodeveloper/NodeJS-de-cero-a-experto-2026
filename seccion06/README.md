@@ -23,3 +23,4 @@
 - V078 - Función anónima - auto-invocada
 - V079 - Opciones de Yargs
 - V080 - Checks - Validaciones adicionales
+- V081 - Usando Yargs empiricamente
