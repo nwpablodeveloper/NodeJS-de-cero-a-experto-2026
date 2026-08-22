@@ -1,6 +1,14 @@
+console.clear();
+
 import { yarg } from "./config/plugins/args.plugin";
 
-// console.clear();
+(async () => {
+    main();
+    console.log(`Gracias por usar el programa`);
+})();
 
-console.log(yarg.b);
+
+async function main() {
+    console.log(`menu`);
+}
 
