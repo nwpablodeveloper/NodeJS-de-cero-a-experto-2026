@@ -27,4 +27,12 @@ export const yarg = yargs(hideBin(process.argv))
                     describe: 'Limite de multipliación'
                 },
         )
+        .check((argv, option) => {
+            
+            if(argv.b <= 0) throw `La base tiene que ser mayor a 0`;
+            if(typeof argv.b != 'string') throw `La base de multiplicación no es un número`;
+            // console.log(argv);
+            
+            return true
+        })
         .parseAsync()
