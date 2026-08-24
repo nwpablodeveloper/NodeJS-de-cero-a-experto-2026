@@ -25,3 +25,4 @@
 - V080 - Checks - Validaciones adicionales
 - V081 - Usando Yargs empiricamente
 - V082 - Refactorizar, Organizar lógicamente el código
+- V083 - Clean Architecture - Use Cases
