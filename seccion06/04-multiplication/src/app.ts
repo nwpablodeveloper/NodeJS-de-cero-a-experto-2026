@@ -1,14 +1,20 @@
 console.clear();
 
-import { miYarg } from "./config/plugins/args.plugin";
+import { miYarg } from '../src/config/plugins/args.plugin'
+
+import { ServerApp } from "./presentation/server-app";
+
 
 (async () => {
     main();
-    // console.log(`Gracias por usar el programa`);
 })();
 
 
 async function main() {
-    console.log(miYarg);
+
+    const { b: base, l: limit, s: showTable } = miYarg;
+    
+    ServerApp.run({ base, limit, showTable });
+
 }
 

@@ -24,3 +24,4 @@
 - V079 - Opciones de Yargs
 - V080 - Checks - Validaciones adicionales
 - V081 - Usando Yargs empiricamente
+- V082 - Refactorizar, Organizar lógicamente el código
