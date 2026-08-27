@@ -44,3 +44,15 @@
 - [Sección 05 02:28hs - Introducción a Testing](seccion05/)
 - [Sección 06 01:49hs - Aplicación de consola - Clean Architecture - Primeros pasos](seccion06/)
 - [Sección 07 01:52hs - Aplicación de consola - Testing](seccion07/) 
+  - Pruebas sobre comandos de consola
+  - Cambiar dinámicamente los argumentos de consola
+  - Mocks
+  - Spies
+  - Mocks y Spies con retornos personalizados
+  - Pruebas cuando se esperan errores
+  - Pruebas de Casos de Uso
+  - Pruebas de integración
+  - Pruebas con funciones asíncronas anónimas auto-invocadas
+  - Pruebas con yargs
+  - Pruebas con creación de archivos y directorios
+  - Y más
