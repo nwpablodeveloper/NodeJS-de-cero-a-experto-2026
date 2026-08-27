@@ -29,3 +29,4 @@
 - V084 - CreateTeable - UseCase
 - V085 - SaveFile - UseCase
 - V086 - Tarea, reforzar todo lo aprendido
+- V087 - Solución de la tarea

@@ -16,10 +16,10 @@ async function main() {
         b: base, 
         l: limit, 
         s: showTable,
-        n: name,
+        n: fileName,
         d: destination } = miYarg;
     
-    ServerApp.run({ base, limit, showTable, name, destination });
+    ServerApp.run({ base, limit, showTable, fileName, destination });
 
 }
 

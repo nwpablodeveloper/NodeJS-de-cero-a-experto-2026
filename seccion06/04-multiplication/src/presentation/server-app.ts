@@ -5,13 +5,13 @@ interface RunOptions {
     base: number;
     limit: number;
     showTable: boolean;
-    name: string,
+    fileName: string,
     destination: string
 }
 
 export class ServerApp {
 
-    static run({ base, limit, showTable, name, destination }: RunOptions){
+    static run({ base, limit, showTable, fileName, destination }: RunOptions){
         console.log(`Server Online`);
 
         const fileContent = new CreateTable().execute({ base, limit });
@@ -20,7 +20,7 @@ export class ServerApp {
                             .execuse({
                                 fileContent,
                                 destination,
-                                fileName: name
+                                fileName,
                             });
 
 
