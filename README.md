@@ -43,3 +43,4 @@
   - y mas...
 - [Sección 05 02:28hs - Introducción a Testing](seccion05/)
 - [Sección 06 01:49hs - Aplicación de consola - Clean Architecture - Primeros pasos](seccion06/)
+- [Sección 07 01:52hs - Aplicación de consola - Testing](seccion07/) 
