@@ -27,6 +27,22 @@ export const miYarg = yargs(hideBin(process.argv))
                     describe: 'Limite de multipliación'
                 },
         )
+        .option(
+            'n', {
+                    alias: 'name',
+                    type: 'string',
+                    default: 'table',
+                    describe: 'Nombre del archivo'
+                },
+        )
+        .option(
+            'd', {
+                    alias: 'destination',
+                    type: 'string',
+                    default: './outputs',
+                    describe: 'Destino del archivo'
+                },
+        )
         .check((argv, option) => {
             
             if(argv.b <= 0) throw `La base tiene que ser mayor a 0`;

@@ -5,24 +5,26 @@ interface RunOptions {
     base: number;
     limit: number;
     showTable: boolean;
+    name: string,
+    destination: string
 }
 
 export class ServerApp {
 
-    static run({ base, limit, showTable }: RunOptions){
+    static run({ base, limit, showTable, name, destination }: RunOptions){
         console.log(`Server Online`);
 
-        const table = new CreateTable().execute({ base, limit });
+        const fileContent = new CreateTable().execute({ base, limit });
 
         const wasCreated = new SaveFile()
                             .execuse({
-                                fileContent: table,
-                                destination: `outputs/tablas-del-${base}`,
-                                fileName: `tabla-del-${base}-al-${limit}`
+                                fileContent,
+                                destination,
+                                fileName: name
                             });
 
 
-        if(showTable) console.log(table);
+        if(showTable) console.log(fileContent);
 
         (wasCreated)
             ? console.log('Archivo creado')

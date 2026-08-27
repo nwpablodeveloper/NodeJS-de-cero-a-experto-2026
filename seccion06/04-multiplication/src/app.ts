@@ -12,9 +12,14 @@ import { ServerApp } from "./presentation/server-app";
 
 async function main() {
 
-    const { b: base, l: limit, s: showTable } = miYarg;
+    const { 
+        b: base, 
+        l: limit, 
+        s: showTable,
+        n: name,
+        d: destination } = miYarg;
     
-    ServerApp.run({ base, limit, showTable });
+    ServerApp.run({ base, limit, showTable, name, destination });
 
 }
 
