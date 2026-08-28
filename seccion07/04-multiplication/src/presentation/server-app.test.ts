@@ -13,6 +13,10 @@ describe('Server app', () => {
             destination: 'testOutputs'
     }
 
+    beforeEach(() => {
+        jest.clearAllMocks();
+    });
+
     test('Ver la instancia del ServerApp', () => {
 
         const serverApp = new ServerApp();
@@ -21,7 +25,7 @@ describe('Server app', () => {
         expect(typeof ServerApp.run).toBe('function');
 
     });
-
+/* 
     test('Correr el server con opciones', () => {
 
         const logSpy = jest.spyOn(console, 'log');
@@ -47,5 +51,33 @@ describe('Server app', () => {
         });
 
     });
+ */
 
-})
+    test('Ejecutar con valores personalizados', () => {
+
+        const logMock = jest.fn();
+        const logErrorMock = jest.fn();
+        const createMock = jest.fn().mockReturnValue('1 x 2 = 2'); // para que no sea undefined
+        const saveFileMock = jest.fn().mockReturnValue(true);
+
+        console.log = logMock;
+        console.error = logErrorMock;
+
+        CreateTable.prototype.execute = createMock;
+        SaveFile.prototype.execuse = saveFileMock;
+
+        ServerApp.run(options);
+
+        expect(logMock).toHaveBeenCalledWith("Server Online");
+        expect(createMock).toHaveBeenCalledWith({"base": 2, "limit": 10});
+        expect(saveFileMock).toHaveBeenCalledWith({
+                            "destination": options.destination, 
+                            "fileContent": expect.any(String), 
+                            "fileName": options.fileName
+                        });
+
+        expect(logMock).toHaveBeenCalledWith('Archivo creado');
+        expect(logErrorMock).not.toHaveBeenCalled();
+
+    });
+});
