@@ -25,7 +25,7 @@ describe('Server app', () => {
         expect(typeof ServerApp.run).toBe('function');
 
     });
-/* 
+
     test('Correr el server con opciones', () => {
 
         const logSpy = jest.spyOn(console, 'log');
@@ -51,7 +51,7 @@ describe('Server app', () => {
         });
 
     });
- */
+
 
     test('Ejecutar con valores personalizados', () => {
 

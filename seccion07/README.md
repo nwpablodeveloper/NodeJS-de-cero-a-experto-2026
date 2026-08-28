@@ -15,3 +15,4 @@
 - V101 - ServerApp, Ejecutar proceso esperado
 - V102 - ServerApp, Pruebas unitarias
 - V103 - Depurando paso a paso con breackpoints
+- V104 - Pruebas - App.ts
