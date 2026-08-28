@@ -11,3 +11,4 @@
 - V112 - CronService
 - V113 - CheckService - UseCase
 - V114 - JSON-Server
+- V115 - Inyección de dependencias
