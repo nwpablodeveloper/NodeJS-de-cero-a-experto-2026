@@ -8,3 +8,4 @@
   - [Pasos para usar Node con TS](RECURSOS/Usar_Node_con_TypeScript.pdf)
 - V110 - Main - ServerApp
 - V111 - CRON Tasks
+- V112 - CronService

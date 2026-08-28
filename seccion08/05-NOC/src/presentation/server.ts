@@ -1,21 +1,18 @@
-import { CronJob } from "cron";
-
+import { CronService } from "./cron/cron-service";
 
 export class ServerApp {
 
     public static start(){
+        console.log('Server started...');
 
-
-        const job = new CronJob(
-            '*/2 * * * * *',
-            function () {
-                console.log(new Date());
-            }, 
-            null, // onComplete
-            true, // start
-            'America/Los_Angeles' // timeZone
+        CronService.createJob(
+            '*/5 * * * * *', 
+            () => {
+                const date = new Date();
+                console.log('5 second => ', date)
+            }
         );
-        job.start();
+        
     }
 
 
