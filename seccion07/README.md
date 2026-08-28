@@ -8,3 +8,4 @@
 - V094 - Pruebas, Create Table UseCase
 - V095 - Pruebas, SaveFile UseCase
 - V096 - Pruebas, SaveFile UseCase custom values
+- V097 - SpyOn + Mock Implementation
