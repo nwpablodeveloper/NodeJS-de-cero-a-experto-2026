@@ -1,3 +1,9 @@
-const nombre: string = 'Pablo Veiga';
+import { ServerApp } from "./presentation/server"
 
-console.log(nombre);
+(async() => {
+    await main();
+})()
+
+function main() {
+    ServerApp.start();
+}
