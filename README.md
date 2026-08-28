@@ -27,7 +27,7 @@
   - Dependencias de Producción y Desarrollo.
   - Patrón adaptador para nuestras dependencias.
   - y mas...
-- [Sección 04 01:28hs - Bases de Node + TypeScript](seccion04/)
+- [Sección 04 - 01:28hs - Bases de Node + TypeScript](seccion04/)
   - Loggers y su necesidad
   - Winston (Loggs - Node Logger)
   - Configuraciones básicas y adaptador
@@ -41,9 +41,9 @@
   - Dependencias de Producción y Desarrollo.
   - Patrón adaptador para nuestras dependencias.
   - y mas...
-- [Sección 05 02:28hs - Introducción a Testing](seccion05/)
-- [Sección 06 01:49hs - Aplicación de consola - Clean Architecture - Primeros pasos](seccion06/)
-- [Sección 07 01:52hs - Aplicación de consola - Testing](seccion07/) 
+- [Sección 05 - 02:28hs - Introducción a Testing](seccion05/)
+- [Sección 06 - 01:49hs - Aplicación de consola - Clean Architecture - Primeros pasos](seccion06/)
+- [Sección 07 - 01:52hs - Aplicación de consola - Testing](seccion07/) 
   - Pruebas sobre comandos de consola
   - Cambiar dinámicamente los argumentos de consola
   - Mocks
@@ -56,3 +56,10 @@
   - Pruebas con yargs
   - Pruebas con creación de archivos y directorios
   - Y más
+- [Sección 08 - 01:08hs - Aplicación de Monitoreo - NOC ](seccion08)
+  - Introducción a la Arquitectura Limpia
+  - Introducción a la inyección de dependencias (DI - Dependency injection)
+  - JSON-Server
+  - Casos de Uso
+  - CRON Task - Tareas cronometradas
+    - Esta sección cuenta con una explicación de cómo lograremos el objetivo de la creación de nuestro sistema de monitoreo de forma global, que a lo largo de las próximas secciones lo haremos funcionar.
