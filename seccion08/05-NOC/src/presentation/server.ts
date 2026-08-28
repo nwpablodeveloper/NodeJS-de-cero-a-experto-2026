@@ -7,9 +7,10 @@ export class ServerApp {
         console.log('Server started...');
         let c: number = 0;
         CronService.createJob(
-            '*/5 * * * * *', 
+            '*/3 * * * * *', 
             () => {
-                new CheckService().execute(`http://google.com`);
+                // new CheckService().execute(`http://google.com`);
+                new CheckService().execute(`http://localhost:3000`);
             }
         );
         
