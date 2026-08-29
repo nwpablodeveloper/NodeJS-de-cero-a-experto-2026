@@ -63,3 +63,12 @@
   - Casos de Uso
   - CRON Task - Tareas cronometradas
     - Esta sección cuenta con una explicación de cómo lograremos el objetivo de la creación de nuestro sistema de monitoreo de forma global, que a lo largo de las próximas secciones lo haremos funcionar.
+- [Sección 09 - 01:31hs - Clean Architecture Repository Pattern ](seccion09)
+  - Entidades
+  - DataSources
+  - Repositorios
+  - Clases Abstractas
+  - Implementaciones
+  - Variables de entorno
+  - Validación de variables de entorno.
+    - Es una sección muy importante, especialmente por la configuración de variables de entorno,  ya que esto es lo que permite cambiar la aplicación si estamos en producción, staging, testing o development. 
