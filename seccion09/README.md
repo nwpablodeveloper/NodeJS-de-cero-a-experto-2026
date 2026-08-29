@@ -4,3 +4,4 @@
 - V119 - Temas puntuales de la sección
 - V120 Continaución de aplicación
   - ![Repository Pattern](RECURSOS/respository-pattern.jpg)
+- V121 - LogEntity
