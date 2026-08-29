@@ -12,3 +12,4 @@
 - V126 - LogRepository, implementación
 - V127 - Inyectar repositorio en caso de uso
 - V128 - Probar la implementación
+- V129 - Depuración del proceso
