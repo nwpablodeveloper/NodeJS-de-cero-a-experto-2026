@@ -10,3 +10,4 @@
 - V124 - FileSystem SaveLog
 - V125 - FileSystem GetLogs
 - V126 - LogRepository, implementación
+- V127 - Inyectar repositorio en caso de uso
