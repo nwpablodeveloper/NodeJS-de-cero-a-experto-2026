@@ -8,7 +8,7 @@ export class ServerApp {
         
         const url = 'http://localhost:3000'
         CronService.createJob(
-            '*/10 * * * * *', 
+            '* * * 1 * *', 
             () => {
                 new CheckService(
                     () => console.log(`URL OK: ${url}`),

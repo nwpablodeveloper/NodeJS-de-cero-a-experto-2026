@@ -1,3 +1,4 @@
+import { FileSystemDatasource } from "./infrastructure/datasource/file-system.datasource";
 import { ServerApp } from "./presentation/server"
 
 (async() => {
@@ -6,4 +7,6 @@ import { ServerApp } from "./presentation/server"
 
 function main() {
     ServerApp.start();
+
+    new FileSystemDatasource();
 }
