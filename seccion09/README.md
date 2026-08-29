@@ -9,3 +9,4 @@
 - V123 - FileSystem Datasource
 - V124 - FileSystem SaveLog
 - V125 - FileSystem GetLogs
+- V126 - LogRepository, implementación
