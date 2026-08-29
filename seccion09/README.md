@@ -15,3 +15,5 @@
 - V129 - Depuración del proceso
 - V130 - Variables de entorno
 - V131 - Configurar variables de entorno
+  - [dotenv - configurar variables de entorno](https://www.npmjs.com/package/dotenv)
+  - [env-var - validar las variables de entorno](https://www.npmjs.com/package/env-var)
