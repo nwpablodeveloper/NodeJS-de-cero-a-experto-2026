@@ -72,3 +72,4 @@
   - Variables de entorno
   - Validación de variables de entorno.
     - Es una sección muy importante, especialmente por la configuración de variables de entorno,  ya que esto es lo que permite cambiar la aplicación si estamos en producción, staging, testing o development. 
+- [Sección 10 - 01:09hs - Correos electrónicos ](seccion10)
