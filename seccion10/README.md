@@ -9,3 +9,4 @@
   - NodeMailer
   - Y más
     - Al final del ejercicio, ustedes podrán enviar correos electrónicos programados con la información que necesitan.
+- V136 - Continuación de la sección
