@@ -13,3 +13,4 @@
 - V127 - Inyectar repositorio en caso de uso
 - V128 - Probar la implementación
 - V129 - Depuración del proceso
+- V130 - Variables de entorno
