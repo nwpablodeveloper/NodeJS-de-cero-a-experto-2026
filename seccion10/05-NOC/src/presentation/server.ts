@@ -1,8 +1,10 @@
+import { SendMailOptions } from "nodemailer";
 import { envs } from "../config/plugins/envs.plugin";
 import { CheckService } from "../domain/use-cases/checks/check-service";
 import { FileSystemDatasource } from "../infrastructure/datasource/file-system.datasource";
 import { LogRepositoryImpl } from "../infrastructure/repositories/log-impl.repository";
 import { CronService } from "./cron/cron-service";
+import { EmailService } from "./email/email-service";
 
 const fileSystemLogRespository = new LogRepositoryImpl(
     // new PostgresSQLLogDataSource()
@@ -17,6 +19,16 @@ export class ServerApp {
         console.log('Server started...');
         
         console.log(envs);
+
+        const emailService = new EmailService();
+        emailService.sendEmail({
+            to: 'pabloveiga1988@gmail.com',
+            subject: 'Probando envio de emails',
+            htmlBody: `
+                <h3>Cuerpo del email por aquí</h3>
+            `
+        })
+        
         return;
         
         const url = 'http://localhost:3000'
