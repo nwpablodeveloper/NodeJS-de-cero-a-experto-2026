@@ -13,3 +13,4 @@
 - V137 - Tarea, Refactorización y nueva propiedad
   - mi solución en rama 'seccion10-tarea'
 - V138 - Solución de la tarea
+- V139 - Preparación de envio de correo
