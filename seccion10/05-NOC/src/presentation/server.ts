@@ -1,3 +1,4 @@
+import { envs } from "../config/plugins/envs.plugin";
 import { CheckService } from "../domain/use-cases/checks/check-service";
 import { FileSystemDatasource } from "../infrastructure/datasource/file-system.datasource";
 import { LogRepositoryImpl } from "../infrastructure/repositories/log-impl.repository";
@@ -15,6 +16,8 @@ export class ServerApp {
     public static start(){
         console.log('Server started...');
         
+        console.log(envs);
+        return;
         
         const url = 'http://localhost:3000'
         CronService.createJob(
