@@ -16,17 +16,17 @@ export class ServerApp {
         console.log('Server started...');
         
         
-        // const url = 'http://localhost:3000'
-        // CronService.createJob(
-        //     '*/5 * * * * *', 
-        //     () => {
-        //         new CheckService(
-        //             fileSystemLogRespository,
-        //             () => console.log(`URL OK: ${url}`),
-        //             (error) => console.log(error)
-        //         ).execute(url);
-        //     }
-        // );
+        const url = 'http://localhost:3000'
+        CronService.createJob(
+            '*/5 * * * * *', 
+            () => {
+                new CheckService(
+                    fileSystemLogRespository,
+                    () => console.log(`URL OK: ${url}`),
+                    (error) => console.log(error)
+                ).execute(url);
+            }
+        );
         
     }
 
