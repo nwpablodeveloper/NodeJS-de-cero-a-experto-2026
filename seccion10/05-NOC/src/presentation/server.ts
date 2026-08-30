@@ -18,7 +18,7 @@ export class ServerApp {
         
         const url = 'http://localhost:3000'
         CronService.createJob(
-            '*/5 * * * * *', 
+            '*/1 * * * * *', 
             () => {
                 new CheckService(
                     fileSystemLogRespository,
