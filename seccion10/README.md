@@ -19,3 +19,4 @@
   - [Contraseñas de Apps google - haciendo click en "Verificación en 2 pasos"](https://myaccount.google.com/u/0/apppasswords?pli=1&rapt=AEjHL4MvzH386fUgblv7OKtitR4k9tjV2Ey1OmmgWKpiyNzSdN-u6ze4acI6gB96ZWOLLhmfIP4roZC137VwZl0SSEpVGiTshZPL1Q-HHvgVgY2DkU6e1Wo)
 - V141 - Nodemailer gemail
   - [npm i nodemailer](https://www.npmjs.com/package/nodemailer)
+- V142 - Nodemailer archivos adjuntos

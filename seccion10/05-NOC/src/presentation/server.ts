@@ -1,5 +1,3 @@
-import { SendMailOptions } from "nodemailer";
-import { envs } from "../config/plugins/envs.plugin";
 import { CheckService } from "../domain/use-cases/checks/check-service";
 import { FileSystemDatasource } from "../infrastructure/datasource/file-system.datasource";
 import { LogRepositoryImpl } from "../infrastructure/repositories/log-impl.repository";
@@ -18,10 +16,14 @@ export class ServerApp {
     public static start(){
         console.log('Server started...');
         
-        console.log(envs);
+        // console.log(envs);
 
-        const emailService = new EmailService();
-        emailService.sendEmail({
+        const emailService: EmailService = new EmailService();
+        emailService.sendEMailWithFileSystemLogs('pabloveiga1988@gmail.com');
+
+        return ;
+        const emailService2 = new EmailService();
+        emailService2.sendEmail({
             to: 'pabloveiga1988@gmail.com',
             subject: 'Probando envio de emails',
             htmlBody: `
@@ -30,7 +32,6 @@ export class ServerApp {
         })
         
         return;
-        
         const url = 'http://localhost:3000'
         CronService.createJob(
             '*/1 * * * * *', 
