@@ -20,3 +20,4 @@
 - V141 - Nodemailer gemail
   - [npm i nodemailer](https://www.npmjs.com/package/nodemailer)
 - V142 - Nodemailer archivos adjuntos
+- V143 - Inyectar Repositorio

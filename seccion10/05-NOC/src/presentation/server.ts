@@ -18,23 +18,12 @@ export class ServerApp {
         
         // console.log(envs);
 
-        const emailService: EmailService = new EmailService();
-        emailService.sendEMailWithFileSystemLogs('pabloveiga1988@gmail.com');
 
-        return ;
-        const emailService2 = new EmailService();
-        emailService2.sendEmail({
-            to: 'pabloveiga1988@gmail.com',
-            subject: 'Probando envio de emails',
-            htmlBody: `
-                <h3>Cuerpo del email por aquí</h3>
-            `
-        })
         
-        return;
+        // return;
         const url = 'http://localhost:3000'
         CronService.createJob(
-            '*/1 * * * * *', 
+            '*/5 * * * * *', 
             () => {
                 new CheckService(
                     fileSystemLogRespository,
@@ -43,6 +32,20 @@ export class ServerApp {
                 ).execute(url);
             }
         );
+
+        // return;
+        const emailService: EmailService = new EmailService(fileSystemLogRespository);
+        emailService.sendEMailWithFileSystemLogs(['pabloveiga1988@gmail.com']);
+
+        return ;
+        const emailService2 = new EmailService(fileSystemLogRespository);
+        emailService2.sendEmail({
+            to: 'pabloveiga1988@gmail.com',
+            subject: 'Probando envio de emails',
+            htmlBody: `
+                <h3>Cuerpo del email por aquí</h3>
+            `
+        })
         
     }
 
