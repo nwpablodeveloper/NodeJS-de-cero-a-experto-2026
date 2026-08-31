@@ -21,3 +21,4 @@
   - [npm i nodemailer](https://www.npmjs.com/package/nodemailer)
 - V142 - Nodemailer archivos adjuntos
 - V143 - Inyectar Repositorio
+- V144 - SendMail - UseCase
