@@ -20,30 +20,31 @@ export class ServerApp {
         console.log('Server started...');
         
         // console.log(envs);
+        
+        const url = 'http://localhost:3000'
+        CronService.createJob(
+            '*/3 * * * * *', 
+            () => {
+                new CheckService(
+                    fileSystemLogRespository,
+                    () => console.log(`URL OK: ${url}`),
+                    (error) => console.log(error)
+                ).execute(url);
+            }
+        );
 
         new SendEmailLogs(
             emailService, 
             fileSystemLogRespository
         ).execute('pabloveiga1988@gmail.com');
 
-        
+
 
         // return;
         // const emailService: EmailService = new EmailService();
         // emailService.sendEMailWithFileSystemLogs(['pabloveiga1988@gmail.com']);
         
         // return;
-        // const url = 'http://localhost:3000'
-        // CronService.createJob(
-        //     '*/5 * * * * *', 
-        //     () => {
-        //         new CheckService(
-        //             fileSystemLogRespository,
-        //             () => console.log(`URL OK: ${url}`),
-        //             (error) => console.log(error)
-        //         ).execute(url);
-        //     }
-        // );
 
         // return ;
         // const emailService2 = new EmailService();

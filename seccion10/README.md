@@ -22,3 +22,4 @@
 - V142 - Nodemailer archivos adjuntos
 - V143 - Inyectar Repositorio
 - V144 - SendMail - UseCase
+- V155 - Resumen de lo visto
