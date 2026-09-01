@@ -21,7 +21,8 @@ export class ServerApp {
         
         // console.log(envs);
         
-        const url = 'http://localhost:3000'
+        const url = 'http://localhost:3000';
+
         CronService.createJob(
             '*/3 * * * * *', 
             () => {
@@ -32,7 +33,7 @@ export class ServerApp {
                 ).execute(url);
             }
         );
-
+        return;
         new SendEmailLogs(
             emailService, 
             fileSystemLogRespository
