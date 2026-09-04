@@ -21,7 +21,6 @@ export class ServerApp {
         
         // console.log(envs);
         
-        return;
         const url = 'http://localhost:3000';
 
         CronService.createJob(
