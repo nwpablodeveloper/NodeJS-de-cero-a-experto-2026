@@ -14,3 +14,14 @@
     - Caso de uso nuevo, para grabar en múltiples destinos simultáneamente
   Es una sección importante en la cual culminaremos nuestro proyecto de NOC.
 - V149 - Continuación del proyecto
+- V150 - Base de datos MongoDB
+  - [Docker imagen Mongo versiones](https://hub.docker.com/_/mongo)
+- V151 - Probar MongoDB
+```js
+  // CMD
+  docker --version
+  // docker compose up
+  docker compose up -d // para no depender de la terminal abierta
+```
+- V152 Node + Node + Mongoose
+  - [mongoose](https://mongoosejs.com/)

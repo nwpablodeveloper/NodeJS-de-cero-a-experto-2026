@@ -1,0 +1,53 @@
+# Versión del formato de Docker Compose que estamos utilizando.
+# En Docker Compose moderno esta línea puede omitirse.
+version: '3.8'
+
+# Definición de los servicios/contenedores que tendrá nuestra aplicación.
+services:
+
+  # Nombre del servicio.
+  # Este nombre también se puede utilizar como nombre de host
+  # dentro de la red de Docker.
+  mongo-db:
+
+    # Imagen que Docker utilizará para crear el contenedor.
+    # En este caso utilizamos MongoDB versión 6.0.6.
+    image: mongo:6.0.6
+
+    # Hace que el contenedor se reinicie automáticamente
+    # si se detiene o si Docker se reinicia.
+    restart: always
+
+    # Variables de entorno que se pasan al contenedor.
+    # MongoDB utiliza estas variables para crear el usuario
+    # administrador y establecer su contraseña.
+    environment:
+
+      # Usuario administrador de MongoDB.
+      # ${MONGO_USER} obtiene el valor desde el archivo .env
+      # o desde una variable de entorno del sistema.
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USER}
+
+      # Contraseña del usuario administrador de MongoDB.
+      # ${MONGO_PASS} obtiene el valor desde el archivo .env
+      # o desde una variable de entorno del sistema.
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASS}
+
+    # Volúmenes.
+    # Permiten guardar los datos de MongoDB fuera del contenedor.
+    # De esta forma, los datos no se pierden si eliminamos
+    # y volvemos a crear el contenedor.
+    volumes:
+
+      # Carpeta ./mongo de nuestro ordenador
+      # se monta dentro del contenedor en /data/db,
+      # que es donde MongoDB almacena sus datos.
+      - ./mongo:/data/db
+
+    # Mapeo de puertos.
+    # Puerto 27017 de nuestro ordenador
+    # se conecta con el puerto 27017 del contenedor.
+    ports:
+
+      # HOST:CONTENEDOR
+      - 27017:27017
