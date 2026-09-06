@@ -1,33 +1,41 @@
+import { LogSeverityLevel } from "../domain/entities/log.entity";
 import { CheckService } from "../domain/use-cases/checks/check-service";
 import { SendEmailLogs } from "../domain/use-cases/email/send-email-logs";
 import { FileSystemDatasource } from "../infrastructure/datasource/file-system.datasource";
+import { MongoLogDatasourse } from "../infrastructure/datasource/mongo-log.datasource";
 import { LogRepositoryImpl } from "../infrastructure/repositories/log-impl.repository";
 import { CronService } from "./cron/cron-service";
 import { EmailService } from "./email/email-service";
 
-const fileSystemLogRespository = new LogRepositoryImpl(
+const logRepository = new LogRepositoryImpl(
     // new PostgresSQLLogDataSource()
     // new mongoLogDS()
     // OracleDataSource
     new FileSystemDatasource()
+    // new MongoLogDatasourse()
 );
 
 const emailService = new EmailService();
 
 export class ServerApp {
 
-    public static start(){
+    public static async start(){
         console.log('Server started...');
         
         // console.log(envs);
         
+
+        const logs = await logRepository.getLogs(LogSeverityLevel.low);
+        console.log(logs);
+
+        return;
         const url = 'http://localhost:3000';
 
         CronService.createJob(
             '*/3 * * * * *', 
             () => {
                 new CheckService(
-                    fileSystemLogRespository,
+                    logRepository,
                     () => console.log(`URL OK: ${url}`),
                     (error) => console.log(error)
                 ).execute(url);
@@ -36,7 +44,7 @@ export class ServerApp {
         return;
         new SendEmailLogs(
             emailService, 
-            fileSystemLogRespository
+            logRepository
         ).execute('pabloveiga1988@gmail.com');
 
 
