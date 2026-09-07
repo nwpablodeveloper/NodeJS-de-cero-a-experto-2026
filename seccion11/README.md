@@ -28,3 +28,5 @@
 - V153 - Schemas & Models Mongo
 - V154  - Crear y leer de Mongo
 - V155 - MongoLogDatasource
+- V156 - Grabar Logs en Mongo
+- V157 - LogEntity FromJson, depuración
