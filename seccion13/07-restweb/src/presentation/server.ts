@@ -36,7 +36,7 @@ export class Server {
         })
 
         this.app.listen(this.port, () => {
-            console.log(`Server express online: http://localhost:${this.port}}`);
+            console.log(`Server express online EN RENDER: http://localhost:${this.port}}`);
         })
 
     }

@@ -13,4 +13,5 @@ seccion07/04-multiplication/testOutputs
 */*/*.log
 */*/.env
 */*/mongo
+*/*/.gitignore
 

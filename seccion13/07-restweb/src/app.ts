@@ -1,5 +1,5 @@
-import { envs } from "./´presentation/config/envs";
-import { Server } from "./´presentation/server";
+import { envs } from "./presentation/config/envs";
+import { Server } from "./presentation/server";
 
 
 
